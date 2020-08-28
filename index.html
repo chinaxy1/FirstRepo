@@ -1,24 +1,35 @@
+<html lang="zh-Hans">
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<title>化身孤岛的鲸</title>
-
-<style type="text/css">
-@font-face {
-	font-family: digit;
-	src: url('digital-7_mono.ttf') format("truetype");
-}
-</style>
-
-<link href="./HTML5浪漫爱心表白动画在线演示_files/default.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="./HTML5浪漫爱心表白动画在线演示_files/jquery.js"></script>
-<script type="text/javascript" src="./HTML5浪漫爱心表白动画在线演示_files/garden.js"></script>
-<script type="text/javascript" src="./HTML5浪漫爱心表白动画在线演示_files/functions.js"></script>
-
+<head>
+	<title>化身孤岛的鲸</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu.css">
+	<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js"></script>
 </head>
 
 <body>
-	<image src="./861529382423_.pic_hd.jpg" alt="我想你了，阿纯" / />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js" defer=""></script>
+<div id="waifu-toggle">
+	<span>看板娘</span>
+</div>
+<div id="waifu" style="bottom: 0;">
+	<div id="waifu-tips" class=""></div>
+	<canvas id="live2d" width="800" height="800"></canvas>
+	<div id="waifu-tool">
+		<span class="fa fa-lg fa-comment"></span>
+		<span class="fa fa-lg fa-paper-plane"></span>
+		<span class="fa fa-lg fa-user-circle"></span>
+		<span class="fa fa-lg fa-street-view"></span>
+		<span class="fa fa-lg fa-camera-retro"></span>
+		<span class="fa fa-lg fa-info-circle"></span>
+		<span class="fa fa-lg fa-times"></span>
+	</div>
+</div>
+
+<script type="text/javascript">
+	localStorage.setItem("modelId", "5");   // 指定模型
+	localStorage.setItem("modelTexturesId", "7");   // 指定材质
+</script>
 </body>
 </html>

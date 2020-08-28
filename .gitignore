@@ -10,3 +10,20 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# IntelliJ IDEA Project files
+.idea
+*.iml
+.project
+.classpath
+
+# Logger
+logs/
+*.log
+
+# MacOS
+.DS_Store
+
+# Application Runtime
+target/
+docs/
